@@ -8,4 +8,5 @@ A website for the game Unearthed
 4. Forums?
 5. Media Page (info for media)
 6. FAQ
-7. Links To Socials
+7. My Other Games Page
+8. Links To Socials
