@@ -1,12 +1,13 @@
 # Unearthed-Website
+
 A website for the game Unearthed
 
-## Features 
+## Features
+
 1. Blog Page
 2. Read About The Game
 3. Video Devlog Page
-4. Forums?
-5. Media Page (info for media)
-6. FAQ
-7. My Other Games Page
-8. Links To Socials
+4. Media Page (info for media)
+5. FAQ
+6. My Other Games Page?
+7. Links To Socials
