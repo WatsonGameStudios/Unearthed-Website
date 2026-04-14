@@ -9,5 +9,5 @@ A website for the game Unearthed
 3. Video Devlog Page
 4. Media Page (info for media)
 5. FAQ
-6. My Other Games Page?
+6. "Earlier Work" Page
 7. Links To Socials
