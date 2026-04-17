@@ -107,7 +107,7 @@ h4 {
 }
 p {
   color: #a6a29a;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .carousel{ 
@@ -336,4 +336,71 @@ img {
 
 .footer-brand p {
   padding-left: 16px;
+}
+
+.poster {
+  width: 580px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.poster:hover {
+  transform: scale(1.05);
+}
+.poster-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.poster-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 43%;
+  background-color: transparent;
+}
+
+.poster-row a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.poster-row a:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.05);
+}
+
+.platform-icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.poster-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
 }
