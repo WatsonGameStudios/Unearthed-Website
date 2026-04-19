@@ -404,3 +404,10 @@ img {
   border-radius: 8px;
   font-size: 14px;
 }
+
+.social_icon {
+  width: 50px;
+  height: auto;
+  filter: brightness(0) invert(1);
+
+}
