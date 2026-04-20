@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "My First Blog",
+    "date": "2026-03-31",
+    "content": [
+      { "type": "heading", "text": "Heading." },
+      { "type": "paragraph", "text": "This is the first paragraph." },
+      { "type": "image", "src": "images/pic1.jpg" },
+      { "type": "paragraph", "text": "Another paragraph after the image." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Another Post",
+    "date": "2026-03-31",
+    "content": [
+      { "type": "paragraph", "text": "Start of post." },
+      { "type": "image", "src": "images/pic2.jpg" }
+    ]
+  }
+]
