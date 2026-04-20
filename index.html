@@ -47,11 +47,17 @@
     </div>
     <div class="section" id="news">
       <h2>Latest News</h2>
-      <div class = "sub_section" id="last_news">
-        <h3>News #X: Title Here</h3>
-        <p>31 Mar 2026</p>
-        <img src="images/placholder.jpg">
+      <div class="sub_section">
+        <div id="app"></div>
+        <template id="blog-template">
+          <div class="post">
+            <h3 class="blog-title"></h3>
+            <p class="blog-date"></p>
+            <div class="content-auto"></div>
+          </div>
+        </template>
       </div>
+      <script src="load-latest-blog.js"></script>
       <br><br>
       <h2>More News</h2>
       <div class ="sub_section" id="more_news">
