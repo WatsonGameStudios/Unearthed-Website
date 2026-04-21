@@ -5,3 +5,7 @@ div {
 img {
     border-radius: 20px;
 }
+
+#icon {
+    border-radius: 0px;
+}
