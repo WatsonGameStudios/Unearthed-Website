@@ -6,7 +6,7 @@
     "content": [
       { "type": "heading", "text": "Heading." },
       { "type": "paragraph", "text": "This is the first paragraph." },
-      { "type": "image", "src": "images/pic1.jpg" },
+      { "type": "image", "src": "images/bitwatson-logo.png" },
       { "type": "paragraph", "text": "Another paragraph after the image." }
     ]
   },
