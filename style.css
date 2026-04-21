@@ -571,3 +571,9 @@ img {
 .menu-toggle.active span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
+@media (min-width: 770px) {
+  .footer-brand #game_footer_qoute {
+    margin-left: -18px;
+  }
+}

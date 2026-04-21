@@ -9,3 +9,9 @@ img {
 #icon {
     border-radius: 0px;
 }
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
