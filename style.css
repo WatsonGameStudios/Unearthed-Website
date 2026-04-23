@@ -558,6 +558,28 @@ img {
     padding: 20px 0;
   }
 
+  p {
+    font-size: 18px;  
+  }
+
+  summary {
+    font-size: 22px;
+  }
+
+  details p {
+    margin-left: 0px;
+  }
+
+  h2 {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .footer-brand #game_footer_qoute {
+    margin-left: -8px;
+  }
+  .old_news {
+    width: 150px; 
+  }
 }
 
 .menu-toggle.active span:nth-child(1) {
