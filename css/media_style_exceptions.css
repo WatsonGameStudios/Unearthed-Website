@@ -1,0 +1,27 @@
+li {
+    color: #a6a29a;
+    font-size: 25px;
+}
+
+
+.sub_section a, .sub_section a:visited{
+    color: rgb(55, 75, 255);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #706f6f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 40px;
+}
+
+.btn:hover {
+    background: #878787;
+}
+
+#download_button {
+    color: white;
+}
