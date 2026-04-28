@@ -87,7 +87,14 @@ nav ul li:hover::after {
   height: auto;
   margin-right: 20px;
   border-radius: 0px;
+  margin-left: 5px;
+  transition: transform 0.3s;
 }
+
+#icon:hover {
+  transform: scale(1.1);
+}
+
 
 .mobile-title {
   display: none;
@@ -198,6 +205,11 @@ p {
   margin: 10px;
   border-radius: 25px;
   width: 300px;
+  transition: transform 0.2s;
+}
+
+.old_news:hover {
+  transform: scale(1.05);
 }
 
 summary {
