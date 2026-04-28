@@ -617,6 +617,12 @@ img {
     left: 50%;
     transform: translateX(-50%);
   }
+  .game-feature {
+    flex-direction: column;
+  }
+  .game-feature img {
+    width: 100%;
+  }
 
 }
 
@@ -647,13 +653,14 @@ img {
   border-radius: 10px;
   font-family: Roboto-bold;
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.4s ease;
   display: inline-block;
   text-align: center;
 }
 
 .hero-btn:hover {
-  transform: scale(1.07);
+  transition: scale 0.3s ease;
+  scale: 105%;
 }
 
 .wishlist-btn {
@@ -702,4 +709,35 @@ img {
 
 .section_qoute {
   text-align: center;
+  margin-bottom: 60px;
+  font-size: 25px;
+
+}
+
+.game-feature {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.game-feature-text {
+  flex: 1;
+  text-align: center;
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.game-feature-text h3 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+
+.game-feature-image {
+  flex: 1;
+  height: 100px;
+  width: auto;
 }
