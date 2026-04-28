@@ -97,14 +97,15 @@ nav ul li:hover::after {
   background-color: #262626;
   padding: 20px;
   margin: 20px;
+  margin-top: 40px;
   border-radius: 25px;
   scroll-margin-top: 90px;
 }
 
 h2 {
   color: #e6e1d9;
-  font-size: 42px;
-  padding-left: 20px;
+  font-size: 62px;
+  text-align: center;
 }
 
 h3 {
@@ -179,12 +180,10 @@ p {
      2px -2px 0 black,
     -2px  2px 0 black,
      2px  2px 0 black;
+  pointer-events: none;
 
 }
 
-.carousel:hover .carousel-overlay {
-  opacity: 0;
-}
 
 .sub_section {
   background-color: #3d3d3d;
@@ -238,7 +237,7 @@ details {
 }
 
 .old_news {
-  flex: 0 0 auto;  /* prevents resizing */
+  flex: 0 0 auto;
 }
 
 .old_news a {
@@ -637,4 +636,70 @@ img {
   .footer-brand #game_footer_qoute {
     margin-left: 8px;
   }
+}
+
+
+
+
+.hero-btn {
+  pointer-events: all;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: Roboto-bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.hero-btn:hover {
+  transform: scale(1.07);
+}
+
+.wishlist-btn {
+  background-color: #e6e1d9;
+  color: #e6e1d9;
+  font-size: 1.6rem;
+  padding: 14px 36px;
+  margin-top: 20px;
+  border: 2px solid #000000;
+}
+
+.wishlist-btn:hover {
+  background-color: #9a9494;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  color: #e6e1d9;
+  font-size: 1rem;
+  padding: 8px 22px;
+  margin-top: 10px;
+  border: 1px solid #e6e1d9;
+}
+
+.read-more-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(300px);
+  transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.fade-left.visible,
+.fade-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section_qoute {
+  text-align: center;
 }

@@ -10,26 +10,28 @@
   <body>
     <header id="menubar">
       <nav>
-        <img id="icon" src="images/icon.png" alt="Icon" loading="lazy"/>
-        <div class="mobile-title">Unearthed</div>
+        <a href="index.html">
+          <img id="icon" src="images/icon.png" alt="Icon" loading="lazy"/>
+        </a>
+          <div class="mobile-title">Unearthed</div>
         <ul>
           <li>
-            <a class="menubar-link" href="#about-section">About</a>
+            <a class="menubar-link fade-left" href="#about-section">About</a>
           </li>
           <li>
-            <a class="menubar-link" href="#news">News</a>
+            <a class="menubar-link fade-left" href="#news">News</a>
           </li>
           <li>
-            <a class="menubar-link" href="#developer_section">Developer</a>
+            <a class="menubar-link fade-left" href="#developer_section">Developer</a>
           </li>
           <li>
-            <a class="menubar-link" href="#FAQ">FAQ</a>
+            <a class="menubar-link fade-left" href="#FAQ">FAQ</a>
           </li>
           <li>
-            <a class="menubar-link" >Store</a> <!--REMEMBER!!! SET THIS IN BLOG's ASWELL-->
+            <a class="menubar-link fade-left" >Store</a> <!--REMEMBER!!! SET THIS IN BLOG's ASWELL-->
           </li>
           <li>
-            <a class="menubar-link" href="media.html">Media</a>
+            <a class="menubar-link fade-left" href="media.html">Media</a>
           </li>
         </ul>
         <div class="menu-toggle" id="menu-toggle">
@@ -39,6 +41,8 @@
         </div>
       </nav>
     </header>
+    <script src="hamburger.js"></script>
+
       <div class="carousel">
         <div class="carousel-slide">
           <img src="images/placholder.jpg" alt="screenshot" loading="lazy">
@@ -47,28 +51,17 @@
           <img src="images/placholder.jpg" alt="screenshot" loading="lazy">
         </div>
         <div class="carousel-overlay">
-          <h1 id="unearthed-hero-logo">Unearthed</h1>
+          <h1 id="unearthed-hero-logo" class="fade-left">Unearthed</h1>
+          <a href="#" class="hero-btn wishlist-btn fade-right">Wishlist Today!</a>
+          <a href="#about-section" class="hero-btn read-more-btn fade-right">Read More</a>
         </div>
       </div>
     <div class="section" id="about-section">
       <h2>About</h2>
-      <p class="section_paragraph">Unearthed is a top down, procedurally generated mining & survival game.</p>
+      <p class="section_qoute fade-left">"Unearthed is a top down, procedurally generated mining & survival game"</p>
     </div>
-    <div class="section" id="news">
-      <h2>Latest News</h2>
-      <div class="sub_section">
-        <div id="app"></div>
-        <template id="blog-template">
-          <div class="post">
-            <h3 class="blog-title"></h3>
-            <p class="blog-date" id="latest-blog-date"></p>
-            <div class="content-auto"></div>
-          </div>
-        </template>
-      </div>
-      <script src="load-latest-blog.js"></script>
-      <br><br>
-      <h2>More News</h2>
+    <div class="section fade-left" id="news">
+      <h2>News</h2>
       <div class ="sub_section" id="more_news">
         
         <div class="old_news">
@@ -87,7 +80,7 @@
         
       </div>
     </div>
-    <div class="section" id="FAQ">
+    <div class="section fade-left" id="FAQ">
       <h2>FAQ</h2>
       <br>
       <details>
@@ -156,7 +149,7 @@
       </details>
 
     </div>
-    <div class="section" id="developer_section">
+    <div class="section fade-left" id="developer_section">
       <h2>BitWatson</h2>
       <p class="section_paragraph">
         Unearthed is being developed by the game studio BitWatson. BitWatson was founded in February 2024 by and still consists of the solo developer Alex, A. Watson.
@@ -207,6 +200,7 @@
           </div>
       </div>
     </div>
+    <script src="scroll-anim.js"></script>
   </body>
   <footer class="footer">
     <div class="footer-container">
