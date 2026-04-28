@@ -16,8 +16,8 @@ img {
     }
 }
 
-#footer-bottom {
-    color: #1a1a1a;
+.footer-bottom {
+    background-color: #1a1a1a;
 }
 
 .title {
@@ -28,4 +28,3 @@ img {
 .mobile-title {
     font-size: 35px;
 }
-

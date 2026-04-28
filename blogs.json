@@ -14,11 +14,11 @@
   },
   {
     "id": 2,
-    "title": "Another Post",
-    "date": "2026-03-31",
+    "title": "Steam Store Page Is Live!",
+    "date": "2026-04-28",
     "content": [
-      { "type": "paragraph", "text": "Start of post." },
-      { "type": "image", "src": "images/pic2.jpg" }
+      { "type": "paragraph", "text": "Unearthed's Steam Store Page is now live! Wishlist today!" },
+      { "type": "image", "src": "images/placeholder.jpg" }
     ]
   }
 ]
