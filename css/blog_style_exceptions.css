@@ -28,3 +28,14 @@ img {
 .mobile-title {
     font-size: 35px;
 }
+
+.content a {
+  color: #8ec5ff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+}
+
+.content a:hover {
+  opacity: 0.7;
+}

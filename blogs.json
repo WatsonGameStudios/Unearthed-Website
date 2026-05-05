@@ -17,7 +17,7 @@
     "title": "Steam Store Page Is Live!",
     "date": "2026-06-5",
     "content": [
-      { "type": "paragraph", "text": "Unearthed's Steam Store Page is now live! Wishlist today!" }
+      { "type": "paragraph", "text": "Unearthed's Steam Store Page is now live! Wishlist today on Steam!", "links": [{"text": "Wishlist today on Steam!","url": "https://store.steampowered.com/app/3744400/Unearthed/"}] }
     ]
   }
 ]

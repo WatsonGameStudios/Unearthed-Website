@@ -21,7 +21,20 @@ fetch("blogs.json")
     blog.content.forEach(block => {
       if (block.type === "paragraph") {
         const p = document.createElement("p");
-        p.textContent = block.text;
+
+        if (block.links && Array.isArray(block.links)) {
+          let html = block.text;
+
+          block.links.forEach(link => {
+            const anchor = `<a href="${link.url}" target="_blank" rel="noopener noreferrer">${link.text}</a>`;
+            html = html.replace(link.text, anchor);
+          });
+
+          p.innerHTML = html;
+        } else {
+          p.textContent = block.text;
+        }
+
         contentDiv.appendChild(p);
       }
 
