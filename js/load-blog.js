@@ -76,3 +76,12 @@ if (toggle && menu) {
     toggle.classList.toggle("active");
   });
 }
+
+const navLinks = document.querySelectorAll("nav ul a");
+
+navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("active");
+    toggle.classList.remove("active");
+  });
+});
