@@ -591,6 +591,12 @@ img {
     position: relative
   }
 
+  .platform-icon {
+    margin-right: 20px;
+    scale: 0.75;
+    margin-bottom: -10px;
+  }
+
 
   nav ul {
     position: absolute;
