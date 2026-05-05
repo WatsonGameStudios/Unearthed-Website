@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +29,8 @@ body {
   background-image: url(../images/background.png);
   background-repeat: repeat;
   position: relative;
+  overflow-x: clip;
+
 }
 
 
@@ -517,6 +520,11 @@ img {
   text-align: center;
 }
 
+.game-feature-text h3 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
 @media (max-width: 980px) {
   .carousel {
     height: auto;
@@ -539,7 +547,8 @@ img {
   }
 
   #unearthed-hero-logo {
-    font-size: 80px;
+    font-size: 60px;
+    margin-bottom: 0px;
   }
 
   #bitwatson_logo {
@@ -547,8 +556,22 @@ img {
     
   }
 
+  .game-feature-text h3 {
+    font-size: 30px;
+  }
+
   .content-auto img{
     max-width: 100%;
+  }
+
+  .section {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .sub_section {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .menu-toggle {
@@ -580,17 +603,12 @@ img {
 
   }
 
-  nav ul li {
-    margin: 10px;
-    font-size: 1.5rem;
-  }
-
   nav ul.active {
     display: flex;
   }
    nav ul li {
     margin: 15px 0;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   nav ul {
@@ -612,10 +630,12 @@ img {
   h2 {
     text-align: center;
     padding-left: 0px;
+    font-size: 45px;
   }
   .footer-brand #game_footer_qoute {
     margin-left: -8px;
   }
+
   .old_news {
     width: 150px; 
   }
@@ -639,6 +659,13 @@ img {
     width: 100%;
   }
 
+   .fade-left {
+    transform: translateX(-80px);
+  }
+
+  .fade-right {
+    transform: translateX(80px);
+  }
 }
 
 .menu-toggle.active span:nth-child(1) {
@@ -745,11 +772,6 @@ img {
   background-color: transparent;
   justify-content: center;
   align-items: center;
-}
-
-.game-feature-text h3 {
-  font-size: 48px;
-  margin-bottom: 25px;
 }
 
 
