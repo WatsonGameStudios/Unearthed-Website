@@ -2,11 +2,11 @@
   {
     "id": 1,
     "title": "Hello World!",
-    "date": "2026-03-31",
+    "date": "2026-05-31",
     "content": [
       { "type": "heading", "text": "Why I'm making this game" },
       { "type": "paragraph", "text": "Sandbox games give you a ton of freedom and let you do whatever you want but they rarely push back. You can explore, expand and build as much as you want but after a while that freedom can start to feel quite bland. You just do stuff to do stuff. I wanted to build something different. What if the world DID push back? What if it fought back against your every action? What if the world wasn't safe but you had to make it safe?" },
-      { "type": "paragraph", "text": "In my game you get thrown into a pitch-black world where light means safety and darkness means danger. The further you go from your lit up base the more aggressive monsters you will encounter. In this game monsters dont just exist they wait in the dark..." },
+      { "type": "paragraph", "text": "In my game you get thrown into a pitch-black world where light means safety and darkness means danger. The further you go from your lit-up base the more aggressive monsters you will encounter. In this game monsters don't just exist they wait in the dark..." },
       { "type": "paragraph", "text":"The only way to survive in my game is to push back the darkness one light at a time. Every step forward is a gamble and every safe space is a place you've earned."},
       { "type": "image", "src": "images/hello-world.png" },
       { "type": "paragraph", "text": "Another paragraph after the image." }
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "Steam Store Page Is Live!",
-    "date": "2026-04-28",
+    "date": "2026-06-5",
     "content": [
       { "type": "paragraph", "text": "Unearthed's Steam Store Page is now live! Wishlist today!" }
     ]
