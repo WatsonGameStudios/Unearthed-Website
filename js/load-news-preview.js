@@ -14,6 +14,7 @@ fetch("blogs.json")
 
         // Find a thumbnail image in the blog content, if any
         const imgBlock = blog.content.find(block => block.type === "image");
+        
 
         const div = document.createElement("div");
         div.className = "old_news";
@@ -22,8 +23,7 @@ fetch("blogs.json")
           <a href="blog.html?id=${blog.id}">
             <h4>${blog.title}</h4>
             <p>${formatted}</p>
-            ${imgBlock ? `<img src="${imgBlock.src}" loading="lazy" alt="${blog.title}">` : ""}
-          </a>
+            ${imgBlock ? `<img src="${imgBlock.src}" loading="lazy" alt="${imgBlock.alt || blog.title}">` : ""}          </a>
         `;
 
         container.appendChild(div);

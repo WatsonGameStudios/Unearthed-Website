@@ -50,6 +50,9 @@ fetch("blogs.json")
 
         const img = document.createElement("img");
         img.src = block.src;
+        img.alt = block.alt || "";
+        img.loading = "lazy";
+
 
         imgWrapper.appendChild(img);
 
