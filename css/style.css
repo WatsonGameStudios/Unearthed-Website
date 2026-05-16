@@ -672,6 +672,11 @@ img {
   .fade-right {
     transform: translateX(80px);
   }
+  #trailer-video {
+  background-color: transparent;
+  width: 100%;
+  padding-left: 0;
+  }
 }
 
 .menu-toggle.active span:nth-child(1) {
@@ -887,4 +892,31 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #9a9494;
+}
+
+#trailer-video {
+  background-color: transparent;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.dev_tool_link {
+  text-decoration: none;
+}
+
+.dev_tool_link:hover {
+  text-decoration: dotted;
+  color: #929ad6;
+}
+
+#dev_tools_p {
+  text-align: center;
+  margin-top: -20px;
+  padding-left: 0px;
+  margin-bottom: 30px;
+
+}
+
+.game_feature_image {
+  max-width: 600px;
 }
