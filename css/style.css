@@ -924,3 +924,8 @@ button[type="submit"]:hover {
 .game_feature_image {
   max-width: 600px;
 }
+
+.table-wrapper {
+  margin: 0px;
+  background-color: transparent;
+}
