@@ -281,8 +281,8 @@ img {
 
 #bitwatson_logo {
   border-radius: 40px;
-  width: 100%;
-}
+  margin-left: 12.5%;
+  width: 75%;}
 
 .footer {
   background: #262626;
@@ -515,8 +515,8 @@ img {
 }
 
 #watson-self-portrait {
-  width: 40%;
-  padding-left: 30%;
+  width: 30%;
+  padding-left: 35%;
   border-radius: 0%;
 }
 
@@ -557,6 +557,7 @@ img {
 
   #bitwatson_logo {
     width: 100%;
+    margin-left: 0px;
     
   }
 
