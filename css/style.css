@@ -524,6 +524,11 @@ img {
   text-align: center;
 }
 
+#unearthed-hero-logo {
+  width: 75%;
+  margin-bottom: 0px;
+}
+
 .game-feature-text h3 {
   font-size: 48px;
   margin-bottom: 25px;
@@ -551,7 +556,7 @@ img {
   }
 
   #unearthed-hero-logo {
-    font-size: 60px;
+    scale: 0.75;
     margin-bottom: 0px;
   }
 
