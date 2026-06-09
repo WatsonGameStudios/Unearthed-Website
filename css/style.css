@@ -953,3 +953,15 @@ button[type="submit"]:hover {
   margin: 0px;
   background-color: transparent;
 }
+
+.wishlist-reminder {
+  color: #2a241b;
+  
+}
+
+.wishlist-reminder-container {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding-bottom: 40px;
+}

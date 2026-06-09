@@ -1,6 +1,7 @@
 fetch("blogs.json")
   .then(res => res.json())
   .then(blogs => {
+
     const container = document.getElementById("more_news");
     container.innerHTML = ""; // Clear hardcoded placeholders
 
