@@ -726,6 +726,9 @@ img {
   .footer-brand #game_footer_qoute {
     margin-left: 6px;
   }
+  .sd_feat_image {
+    min-width: 45%;
+  }
 
 }
 
